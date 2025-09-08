@@ -49,11 +49,11 @@ The extension provides these key capabilities:
 
 ## Official Documentation
 
-[Documantation Link](https://github.com/Extensions-lab/logistic-units-help)
+[Project Link](https://github.com/Extensions-lab/logistic-units-help)
 
 This documentation is available directly from the extension.
 
-[Documentation inside Logistic Units extension](resources/logisticunit/pics/logisticunit0.png)
+[Documentation inside Logistic Units extension](github/mainpage/images/DocumentationAvailability.png)
 
 ## Prerequisites
 
@@ -62,8 +62,8 @@ This documentation is available directly from the extension.
 
 ## Notes
 
-The object range 71628575 – 71629574 is registered with Microsoft under the company Extensions Force.
-The object prefix TMA is registered with Microsoft under the company Extensions Force.
+- The object range 71628575 – 71629574 is registered with Microsoft under the company Extensions Force.
+- The object prefix TMA is registered with Microsoft under the company Extensions Force.
 
 When creating your own solutions based on the Logistic Units extension, you must update the object range in app.json to your own range, move all objects into that range, and remove the TMA prefix.
 
@@ -81,3 +81,16 @@ When creating your own solutions based on the Logistic Units extension, you must
 - Transfer object of this extension to your object range (for example 50000-59999) and remove prefix TMA for objects.
 - Build extension
 - Manualy load to Onprem Business Central
+
+## Solutions
+
+Solutions developed based on Logistic Units, where it serves as the foundation:
+
+- Transportation Management System - [AppSource page](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.extensionsforcelimited1647259189111%7CAID.tms%7CPAPPID.7bfc8c44-7cc8-4ba3-98d0-4f9964697a01?tab=Overview)
+- Warehouse Management System - [AppSource page](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.extensionsforcelimited1647259189111%7CAID.wms%7CPAPPID.d09e4edd-debe-4736-aea8-79eaae3d1344?tab=Overview)
+
+## Contribute
+
+We’d love your help!  Whether you fix a bug, improve docs, or suggest new features — every contribution matters.  
+
+If you’re a **Microsoft Dynamics NAV** or **Business Central** specialist and always wanted to support an open-source project, this is the perfect place to start.
