@@ -4,7 +4,7 @@ Logistic Units is a powerful extension for Microsoft Dynamics 365 Business Centr
 
 ![Setup Image](github/mainpage/images/AppSource.png)
 
-[AppSource Link](https://github.com/Extensions-lab/logistic-units)
+[AppSource Page](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.extensionsforcelimited1647259189111%7CAID.logisticunits%7CPAPPID.c383b772-f29f-4c05-b1ac-7801c76750af?tab=Overview)
 
 ## What is Logistic Units?
 
