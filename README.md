@@ -53,7 +53,7 @@ The extension provides these key capabilities:
 
 This documentation is available directly from the extension.
 
-[Documentation inside Logistic Units extension](github/mainpage/images/DocumentationAvailability.png)
+![Documentation inside Logistic Units extension](github/mainpage/images/DocumentationAvailability.png)
 
 ## Prerequisites
 
