@@ -49,7 +49,7 @@ The extension provides these key capabilities:
 
 ## Official Documentation
 
-[Project Link](https://github.com/Extensions-lab/logistic-units-help)
+[Official Documentation Project](https://github.com/Extensions-lab/logistic-units-help)
 
 This documentation is available directly from the extension.
 
@@ -65,7 +65,7 @@ This documentation is available directly from the extension.
 - The object range 71628575 – 71629574 is registered with Microsoft under the company Extensions Force.
 - The object prefix TMA is registered with Microsoft under the company Extensions Force.
 
-When creating your own solutions based on the Logistic Units extension, you must update the object range in app.json to your own range, move all objects into that range, and remove the TMA prefix.
+When creating your own solutions based on the Logistic Units extension, you must update the object range in app.json to your own range, move all objects into that range, and remove the TMAC prefix.
 
 ## How to Install
 
@@ -78,7 +78,7 @@ When creating your own solutions based on the Logistic Units extension, you must
 ### On-prem
 
 - Download source-codes
-- Transfer object of this extension to your object range (for example 50000-59999) and remove prefix TMA for objects.
+- Transfer object of this extension to your object range (for example 50000-59999) and remove prefix TMAC for objects.
 - Build extension
 - Manualy load to Onprem Business Central
 
@@ -94,3 +94,11 @@ Solutions developed based on Logistic Units, where it serves as the foundation:
 We’d love your help!  Whether you fix a bug, improve docs, or suggest new features — every contribution matters.  
 
 If you’re a **Microsoft Dynamics NAV** or **Business Central** specialist and always wanted to support an open-source project, this is the perfect place to start.
+
+[Please read through our contributing guidelines.](CONTRIBUTING.md)
+
+## License
+
+Copyright(c) Extensionsforce Limited. All rights reserved.
+
+Licensed under the [MIT](LICENSE) license.
