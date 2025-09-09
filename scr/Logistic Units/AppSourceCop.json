@@ -1,0 +1,10 @@
+{
+    "mandatoryPrefix": "TMAC",
+    "supportedCountries": [
+        "US",
+        "DE",
+        "ES",
+        "NL",
+        "TR"
+    ]
+}

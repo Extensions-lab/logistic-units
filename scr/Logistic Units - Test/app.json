@@ -1,0 +1,51 @@
+{
+  "id": "25ab9014-e619-447b-8af6-7455da084732",
+  "name": "Logistic Unit Tests",
+  "publisher": "ExtensionsForce",
+  "version": "26.6.0.0",
+  "brief": "Logistics Units Management System for Microsoft Dynamics 365 Business Central.",
+  "description": "Logistics Units provides a powerful tool to manage the supply chain and ensure that your goods are transported and stored safely and efficiently. The module makes it easy to track and manage single boxes, pallets, and intermodal containers containing multiple products.",
+  "privacyStatement": "https://www.extensionsforce.com/privacypolicy",
+  "EULA": "https://www.extensionsforce.com/logisticunits-eula",
+  "help": "https://www.extensionsforce.com/logisticunits-help",
+  "url": "https://www.extensionsforce.com/",
+  "contextSensitiveHelpUrl": "https://www.extensionsforce.com",
+  "dependencies": [
+    {
+      "id": "c383b772-f29f-4c05-b1ac-7801c76750af",
+      "name": "Logistic Units",
+      "publisher": "ExtensionsForce",
+      "version": "26.6.0.0"
+    },
+    {
+      "id": "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
+      "publisher": "Microsoft",
+      "name": "Library Assert",
+      "version": "26.0.0.0"
+    },
+    {
+      "id": "5d86850b-0d76-4eca-bd7b-951ad998e997",
+      "publisher": "Microsoft",
+      "name": "Tests-TestLibraries",
+      "version": "26.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "26.0.0.0",
+  "application": "26.0.0.0",
+  "idRanges": [
+    {
+      "from": 71629500, 
+      "to": 71629574
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "15.0",
+  "features": [
+    "TranslationFile"
+  ]
+}

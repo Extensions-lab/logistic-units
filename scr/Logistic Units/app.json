@@ -1,0 +1,38 @@
+{
+    "id": "c383b772-f29f-4c05-b1ac-7801c76750af",
+    "name": "Logistic Units",
+    "publisher": "Extensions Lab",
+    "version": "26.6.0.0",
+    "brief": "Logistics Units Management System for Microsoft Dynamics 365 Business Central",
+    "description": "Logistics Units provides a powerful tool to manage the supply chain and ensure that your goods are transported and stored safely and efficiently. The module makes it easy to track and manage single boxes, pallets, and intermodal containers containing multiple products.",
+    "privacyStatement": "https://www.extensions-lab.com/privacypolicy",
+    "EULA": "https://www.extensions-lab.com/logisticunits-eula",
+    "url": "https://www.extensions-lab.com/",
+    "help": "https://github.com/Extensions-lab/logistic-units-help",
+    "contextSensitiveHelpUrl": "https://github.com/Extensions-lab/logistic-units-help/",
+    "applicationInsightsConnectionString": "InstrumentationKey=e9806938-a501-483d-9e42-9a6252a12c29;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/;ApplicationId=8a29f155-b375-4d1c-a30b-99785138a4b4",
+    "logo": "./res/logo240.logisticunits.png",
+    "dependencies": [],
+    "screenshots": [],
+    "platform": "26.0.0.0",
+    "application": "26.0.0.0",
+    "idRanges": [
+        {
+            "from": 71628575,
+            "to": 71629574
+        }
+    ],
+    "target": "Cloud",
+    "resourceExposurePolicy": {
+        "allowDebugging": false,
+        "allowDownloadingSource": false,
+        "includeSourceInSymbolFile": false
+    },
+    "runtime": "15.0",
+    "features": [
+        "TranslationFile"
+    ],
+    "preprocessorSymbols": [
+        "License"
+    ]
+}
