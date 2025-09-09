@@ -47,14 +47,6 @@ The extension provides these key capabilities:
 - Prevent overloading of logistics units
 - Maintain accurate capacity management
 
-## Official Documentation
-
-[Official Documentation Project](https://github.com/Extensions-lab/logistic-units-help)
-
-This documentation is available directly from the extension.
-
-![Documentation inside Logistic Units extension](github/mainpage/images/DocumentationAvailability.png)
-
 ## Prerequisites
 
 - Microsoft Dynamics 365 Business Central [product page](https://www.microsoft.com/en-us/dynamics-365/products/business-central). Logistics Units is an add-on extension for Business Central that builds on its core modules—such as Customers, Sales, Vendors, Purchasing, and Warehousing—using them as a solid foundation while adding only the features necessary for logistics.
@@ -73,7 +65,7 @@ When creating your own solutions based on the Logistic Units extension, you must
 
 - [Directly From AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.extensionsforcelimited1647259189111%7CAID.logisticunits%7CPAPPID.c383b772-f29f-4c05-b1ac-7801c76750af?tab=Overview) This is the official solution page. The solution is built from these source codes and published by Extensions Lab.
 
-- [Directly in Business Central]
+- [Directly in Business Central](github/mainpage/installation.md)
 
 ### On-prem
 
@@ -82,12 +74,20 @@ When creating your own solutions based on the Logistic Units extension, you must
 - Build extension
 - Manualy load to Onprem Business Central
 
+## Official Documentation
+
+[Official Documentation Project](https://github.com/Extensions-lab/logistic-units-help)
+
+This documentation is available directly from the extension.
+
+![Documentation inside Logistic Units extension](github/mainpage/images/DocumentationAvailability.png)
+
 ## Solutions
 
 Solutions developed based on Logistic Units, where it serves as the foundation:
 
-- Transportation Management System - [AppSource page](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.extensionsforcelimited1647259189111%7CAID.tms%7CPAPPID.7bfc8c44-7cc8-4ba3-98d0-4f9964697a01?tab=Overview)
-- Warehouse Management System - [AppSource page](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.extensionsforcelimited1647259189111%7CAID.wms%7CPAPPID.d09e4edd-debe-4736-aea8-79eaae3d1344?tab=Overview)
+- Transportation Management System - [AppSource page](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.extensionsforcelimited1647259189111%7CAID.tms%7CPAPPID.7bfc8c44-7cc8-4ba3-98d0-4f9964697a01?tab=Overview) Logistic units are used as transportable units during transportation.
+- Warehouse Management System - [AppSource page](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.extensionsforcelimited1647259189111%7CAID.wms%7CPAPPID.d09e4edd-debe-4736-aea8-79eaae3d1344?tab=Overview) Logistic units are used as units for internal warehouse processes, such as pallet-based receiving and pallet-based shipping.
 
 ## Contribute
 
