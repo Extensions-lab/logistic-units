@@ -47,6 +47,11 @@ The extension provides these key capabilities:
 - Prevent overloading of logistics units
 - Maintain accurate capacity management
 
+### Introduction
+
+[Fact Sheet pdf](github/pdf/LogisticUnitsFactSheet.pdf)
+[Usage Cases pdf](github/pdf/UsageScenarios.pdf)
+
 ## Prerequisites
 
 - Microsoft Dynamics 365 Business Central [product page](https://www.microsoft.com/en-us/dynamics-365/products/business-central). Logistics Units is an add-on extension for Business Central that builds on its core modules—such as Customers, Sales, Vendors, Purchasing, and Warehousing—using them as a solid foundation while adding only the features necessary for logistics.
@@ -65,7 +70,7 @@ When creating your own solutions based on the Logistic Units extension, you must
 
 - [Directly From AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.extensionsforcelimited1647259189111%7CAID.logisticunits%7CPAPPID.c383b772-f29f-4c05-b1ac-7801c76750af?tab=Overview) This is the official solution page. The solution is built from these source codes and published by Extensions Lab.
 
-- [Directly in Business Central](github/mainpage/installation.md)
+- [Directly in Business Central](github/installation/installation.md)
 
 ### On-prem
 

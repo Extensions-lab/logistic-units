@@ -10,9 +10,7 @@ If you cannot find an existing issue that describes your bug, create a new issue
 
 ## Writing good bug reports
 
-File a single issue per problem. Do not enumerate multiple bugs or feature requests in the same issue.
-
-Do not add your issue as a comment to an existing issue unless it's for the identical input. Many issues look similar, but have different causes.
+File a single issue per problem. Do not enumerate multiple bugs or feature requests in the same issue. Do not add your issue as a comment to an existing issue unless it's for the identical input. Many issues look similar, but have different causes.
 
 The more information you can provide, the more likely someone will be successful at reproducing the issue and finding a fix.
 
@@ -38,7 +36,7 @@ A clear and concise description of what happened accompanied by images, animatio
 
 **5. Versions:**
 
-- AL Language. Go to Visual Studio Code → Extensions panel → AL Language 
+- AL Language. Go to Visual Studio Code → Extensions panel → AL Language
 - Visual Studio Code: Go to Visual Studio Code → Help → About
 - Business Central. In the web client, go to Help → Help and Support → Troubleshooting
 - List of Visual Studio Code extensions that you have installed. Go to Visual Studio Code → Extensions panel
