@@ -10,7 +10,7 @@
     "url": "https://www.extensions-lab.com/",
     "help": "https://github.com/Extensions-lab/logistic-units-help",
     "contextSensitiveHelpUrl": "https://github.com/Extensions-lab/logistic-units-help/",
-    "applicationInsightsConnectionString": "InstrumentationKey=e9806938-a501-483d-9e42-9a6252a12c29;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/;ApplicationId=8a29f155-b375-4d1c-a30b-99785138a4b4",
+    "applicationInsightsConnectionString": "",
     "logo": "./res/logo240.logisticunits.png",
     "dependencies": [],
     "screenshots": [],

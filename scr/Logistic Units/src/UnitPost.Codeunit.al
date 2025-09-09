@@ -147,7 +147,7 @@ codeunit 71628581 "TMAC Unit Post"
     /// <summary>
     /// Accounting for purchases or other documents by logistics unit.  
     /// SourceType — the table can be either a purchase line or a sales line.  
-    /// OppositeSourceType — the table is a line of the accounted document.
+    /// OppositeSourceType — the table is a line of the posted document.
     /// </summary>
     /// <param name="Unit">Logistics unit</param>
     procedure PostByLogisticUnit(UnitNo: Code[20]; SourceType: Integer; OppositeSourceType: Integer)
@@ -510,7 +510,7 @@ codeunit 71628581 "TMAC Unit Post"
                     TempPurchaseHeader."No." := GroupedSourceDocumentLink."Source ID";
                     TempPurchaseHeader.Insert(false);
 
-                    //set zero for all other lines to be accounted
+                    //set zero for all other lines to be posted
                     PurchaseLine.Reset();
                     PurchaseLine.Setrange("Document Type", GroupedSourceDocumentLink."Source Subtype");
                     PurchaseLine.Setrange("Document No.", GroupedSourceDocumentLink."Source ID");
@@ -991,15 +991,15 @@ codeunit 71628581 "TMAC Unit Post"
     /// Transfer Links to Posted for selected Qty.
     /// </summary>
     /// <param name="Qty">Quantity</param>
-    /// <param name="SourceType">SourceType of the unaccounted link</param>
-    /// <param name="SourceSubtype">SourceSubtype of the unaccounted link</param>
-    /// <param name="SourceID">SourceID of the unaccounted link</param>
-    /// <param name="SourceLineNo">SourceLineNo of the unaccounted link</param>
-    /// <param name="Positive">Type of link to transfer to accounted. A line may have 2 links — positive and negative</param>
-    /// <param name="PostedSourceType">SourceType of the accounted link</param>
-    /// <param name="PostedSourceSubtype">SourceSubtype of the accounted link</param>
-    /// <param name="PostedSourceID">SourceID of the accounted link</param>
-    /// <param name="PostedSourceLineNo">SourceLineNo of the accounted link</param>
+    /// <param name="SourceType">SourceType of the unposted link</param>
+    /// <param name="SourceSubtype">SourceSubtype of the unposted link</param>
+    /// <param name="SourceID">SourceID of the unposted link</param>
+    /// <param name="SourceLineNo">SourceLineNo of the unposted link</param>
+    /// <param name="Positive">Type of link to transfer to posted. A line may have 2 links — positive and negative</param>
+    /// <param name="PostedSourceType">SourceType of the posted link</param>
+    /// <param name="PostedSourceSubtype">SourceSubtype of the posted link</param>
+    /// <param name="PostedSourceID">SourceID of the posted link</param>
+    /// <param name="PostedSourceLineNo">SourceLineNo of the posted link</param>
 
     procedure PostLinks(Qty: Decimal; SourceType: Integer; SourceSubtype: Integer; SourceID: code[20]; SourceLineNo: Integer; Positive: Boolean; PostedSourceType: Integer; PostedSourceSubtype: Integer; PostedSourceID: code[20]; PostedSourceLineNo: Integer)
     var
@@ -1079,7 +1079,7 @@ codeunit 71628581 "TMAC Unit Post"
         UnitLineLink.SetRange("Source ID", SourceID);
         UnitLineLink.SetRange("Source Ref. No.", SourceLineNo);
         UnitLineLink.SetRange("Positive", Positive);
-        UnitLineLink.SetFilter("Quantity", '<>0'); //only unaccounted links... there may be links, but if they are all already accounted, they should not be included in this calculation
+        UnitLineLink.SetFilter("Quantity", '<>0'); //only unposted links... there may be links, but if they are all already posted, they should not be included in this calculation
         if UnitLineLink.FindFirst() then begin
             UnitLineLink.CalcSums("Qty. to Post");
             if PostingQuantity <> UnitLineLink."Qty. to Post" then
@@ -1223,7 +1223,7 @@ codeunit 71628581 "TMAC Unit Post"
 
     /// <summary>
     /// Change the LU Location Code based on the source document.  
-    /// Even if Warehouse Shipment/ Warehouse Receipt is accounted, the source document line will still be accounted.
+    /// Even if Warehouse Shipment/ Warehouse Receipt is posted, the source document line will still be posted.
     /// </summary>
     /// <param name="SourceType">Source type</param>
     /// <param name="SourceSubtype">Source subtype</param>
